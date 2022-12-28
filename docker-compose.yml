@@ -1,0 +1,9 @@
+services:
+  ubuntu-systemd:
+    build:
+      context: .
+    container_name: ubuntu-systemd
+    image: ubuntu-systemd
+    privileged: true
+    # cap_add:
+    #   - "SYS_ADMIN"
